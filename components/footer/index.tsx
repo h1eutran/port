@@ -8,7 +8,7 @@ export const Footer = () => {
       <Box>
          <Spacer css={{pt: '$16', mt: '0 !important'}} />
          <Flex justify={'center'}>
-            <Text span>© 2022 Mauricio Siu. All Rights Reserved.</Text>
+            <Text span>© 2024 Nghia Tran. All Right Reserved.</Text>
          </Flex>
          <Spacer y={2} />
       </Box>

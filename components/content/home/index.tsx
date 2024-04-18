@@ -14,55 +14,46 @@ export const Home = () => {
 
   return (
     <Box css={{ px: "$12", "@xsMax": { px: "$10" }, width: "100%" }}>
-      <Card variant="flat" css={{ marginBottom: "$10" }}>
+      {/* <Card variant="flat" css={{ marginBottom: "$10" }}>
         <Card.Body css={{ backgroundColor: "$accents2" }}>
           <Text css={{ fontFamily: "inherit", textAlign: "center" }} as={"p"}>
-            Hello, I&apos;m Mauricio Siu. I&apos;m a software engineer based in
-            Honduras!
+            Bonjour, je m'appelle Nghia Tran. Etudiant en premiere annee de BU
           </Text>
         </Card.Body>
-      </Card>
+      </Card> */}
       <Flex justify={"between"} css={{ pb: "$10" }}>
         <Box css={{ alignSelf: "center" }}>
           <Text h2 css={{ my: "$0" }}>
-            Mauricio Siu
+            Nghia Tran
           </Text>
           <Text css={{ fontFamily: "inherit" }}>
-            Software Engineer ( Backend / Frontend / Developer )
+            Etudiant en Infomatique a IUT de Nantes
           </Text>
         </Box>
 
-        <Avatar
+        {/* <Avatar
           css={{ "--nextui--avatarXl": "7.5rem" }}
           pointer
           bordered
           size={"xl"}
           src="https://i.pravatar.cc/150?u=a042581f4e29026024d"
-        />
+        /> */}
       </Flex>
       <SectionAnimation delay={0.1}>
         <Box css={{ mb: "$10" }}>
-          <Text h3>Work</Text>
-          <Text
-            span
-            css={{
-              textIndent: "1em",
-              display: "block",
-            }}
-          >
-            Sofware engineer with solid experience working with a variety of
-            programming languages, I am also familiar with different development
-            frameworks and tools. I am a quick learner and always strive to keep
-            up with the latest technologies and industry trends. In addition, I
-            have a strong sense of teamwork and communication skills that allow
-            me to collaborate effectively with other developers, designers and
-            stakeholders.
+          <Text h3>Qui suis-je</Text>
+          <Text>
+          Etudiant en première année d'IUT Informatique, je suis inspiré par le domaine de la data science et aspire à devenir un data scientist. 
           </Text>
-
           <Flex justify={"center"} css={{ mt: "$8" }}>
-            <NextLink href="/projects">
+            <NextLink href="./resume_TRAN.pdf">
               <Link block css={{ gap: "$4" }}>
-                Projects <LinkIcon />
+                Résume <LinkIcon />
+              </Link>
+            </NextLink>
+            <NextLink href="./lettre_de_motivation.pdf">
+              <Link block css={{ gap: "$4" }}>
+                Lettre de motivation <LinkIcon />
               </Link>
             </NextLink>
           </Flex>
@@ -71,44 +62,32 @@ export const Home = () => {
 
       <SectionAnimation delay={0.2}>
         <Box css={{ mb: "$10" }}>
-          <Text h3>Bio</Text>
+          <Text h3>A propos de moi</Text>
 
           <Box as={"ul"} css={{ m: 0 }}>
             <Box as={"li"} css={{ textIndent: "-3.4em", pl: "3.4em" }}>
               <Text span css={{ mr: "1em" }} weight={"bold"}>
-                1999
+                2005
               </Text>
-              <Text span>Born in Cortes, Honduras.</Text>
+              <Text span>Né à Hanoï, Vietnam.</Text>
             </Box>
             <Box as={"li"} css={{ textIndent: "-3.4em", pl: "3.4em" }}>
               <Text span css={{ mr: "1em" }} weight={"bold"}>
-                2018 - 2022
+                2016 - 2020
               </Text>
-              <Text span>Bachelor&apos;s degree in Computer Science.</Text>
+              <Text span>Etude secondaire aux Etats-Unis.</Text>
             </Box>
             <Box as={"li"} css={{ textIndent: "-3.4em", pl: "3.4em" }}>
               <Text span css={{ mr: "1em" }} weight={"bold"}>
-                2020 - 2022
+                2020 - 2023
               </Text>
-              <Text span>Freelancer as a Software Developer.</Text>
+              <Text span>Baccalauréat général en France.</Text>
             </Box>
             <Box as={"li"} css={{ textIndent: "-3.4em", pl: "3.4em" }}>
               <Text span css={{ mr: "1em" }} weight={"bold"}>
-                2022 - 2023
+                2023 - Present
               </Text>
-              <Text span>Software Engineer at CodeExitos.</Text>
-            </Box>
-             <Box as={"li"} css={{ textIndent: "-3.4em", pl: "3.4em" }}>
-              <Text span css={{ mr: "1em" }} weight={"bold"}>
-                  2021 - Present
-              </Text>
-              <Text span>Middle Software Engineer At Jinza</Text>
-            </Box>
-              <Box as={"li"} css={{ textIndent: "-3.4em", pl: "3.4em" }}>
-              <Text span css={{ mr: "1em" }} weight={"bold"}>
-                  2023 - Present
-              </Text>
-              <Text span>Software Engineer At Trades.org</Text>
+              <Text span>Etudiant en Infomatique a IUT de Nantes.</Text>
             </Box>
           </Box>
         </Box>
@@ -116,11 +95,10 @@ export const Home = () => {
 
       <SectionAnimation delay={0.3}>
         <Box css={{ mb: "$10" }}>
-          <Text h3>I ❤️ </Text>
+          <Text h3>J' ❤️ </Text>
           <Text as={"span"} css={{ textIndent: "1em" }}>
-            I love to learn new things, I am passionate about technology and I
-            always try to learn something new every day, I love to solve
-            problems and I am always looking for new challenges.
+          J'adore apprendre de nouvelles choses, je suis passionné par la technologie et j'essaie toujours d'apprendre quelque chose de nouveau chaque jour. 
+          J'aime résoudre des problèmes et je suis toujours à la recherche de nouveaux défis.          
           </Text>
         </Box>
       </SectionAnimation>
@@ -161,8 +139,10 @@ export const Home = () => {
         <Box css={{ mb: "$10" }}>
           <Text h3>Languages</Text>
           <GridContainer as={"ul"} gap={"md"} css={{ m: 0, px: 0 }}>
-            <Box as={"li"}>Spanish </Box>
-            <Box as={"li"}>English </Box>
+            <Box as={"li"}>Espagnol </Box>
+            <Box as={"li"}>Anglais </Box>
+            <Box as={"li"}>Français </Box>
+            <Box as={"li"}>Vietnamien </Box>
           </GridContainer>
         </Box>
       </SectionAnimation>
@@ -176,7 +156,7 @@ export const Home = () => {
                 block
                 target={"_blank"}
                 color="primary"
-                href="https://github.com/Siumauricio"
+                href="https://github.com/h1eutran"
               >
                 <Button
                   light
@@ -186,7 +166,7 @@ export const Home = () => {
                   ripple={false}
                   css={{ pl: "$3" }}
                 >
-                  @Siumauricio
+                  @h1eutran
                 </Button>
               </Link>
             </Box>
@@ -195,7 +175,7 @@ export const Home = () => {
                 block
                 target={"_blank"}
                 color="primary"
-                href="https://www.linkedin.com/in/carlos-mauricio-ortiz-siu-6b9011184/"
+                href="https://www.linkedin.com/in/hieunghiatran/"
               >
                 <Button
                   light
@@ -205,7 +185,7 @@ export const Home = () => {
                   ripple={false}
                   css={{ pl: "$3" }}
                 >
-                  @Mauricio Siu
+                  @Nghia Tran
                 </Button>
               </Link>
             </Box>

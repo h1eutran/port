@@ -16,19 +16,19 @@ export const MainLayout = ({children}: Props) => {
                name="viewport"
                content="width=device-width, initial-scale=1"
             />
-            <meta name="description" content="Mauricio's homepage" />
-            <meta name="author" content="Mauricio Siu" />
-            <meta name="author" content="siumauricio" />
+            <meta name="description" content="Nghia's homepage" />
+            <meta name="author" content="Nghia Tran" />
+            <meta name="author" content="h1eutran" />
             <link rel="apple-touch-icon" href="apple-touch-icon.png" />
             <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-            <meta name="twitter:title" content="Mauricio Siu" />
+            <meta name="twitter:title" content="Nghia Tran" />
             <meta name="twitter:card" content="summary_large_image" />
-            <meta name="twitter:site" content="@siumauricio" />
-            <meta name="twitter:creator" content="@siumauricio" />
-            <meta property="og:site_name" content="Mauricio Siu" />
-            <meta name="og:title" content="Mauricio Siu" />
+            <meta name="twitter:site" content="@h1eutran" />
+            <meta name="twitter:creator" content="@h1eutran" />
+            <meta property="og:site_name" content="Nghia Tran" />
+            <meta name="og:title" content="Nghia Tran" />
             <meta property="og:type" content="website" />
-            <title>Mauricio Siu - Homepage</title>
+            <title>Nghia Tran - Homepage</title>
          </Head>
 
          <NavbarWrapper />

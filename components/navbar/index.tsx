@@ -65,9 +65,9 @@ export const NavbarWrapper = () => {
                   },
                }}
             >
-               <LogoIcon />
+               {/* <LogoIcon /> */}
                <Text b color="inherit">
-                  Mauricio Siu
+                  Nghia Tran
                </Text>
             </Navbar.Brand>
          </NextLink>

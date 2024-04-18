@@ -41,11 +41,11 @@ const Blog = ({ sources }: Props) => {
     <BlogLayout>
       <Flex direction={"column"} css={{}}>
         <Text h1>Blog</Text>
-        <Text span css={{ color: "$accents8" }}>
+        {/* <Text span css={{ color: "$accents8" }}>
           Ive been writing online since 2014, mostly about web development and
           tech careers. In total, Ive written 51 articles on my blog. Use the
           search below to filter by title.
-        </Text>
+        </Text> */}
         <Box css={{ my: "$8" }}>
           <Input
             placeholder="Search by title"
